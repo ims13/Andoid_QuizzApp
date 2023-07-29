@@ -13,7 +13,6 @@ public class NumberPickerDialog extends DialogFragment {
     public interface OnNumberSetListener {
         void onNumberSet(int number);
     }
-
     private OnNumberSetListener mListener;
 
     public void setOnNumberSetListener(OnNumberSetListener listener) {

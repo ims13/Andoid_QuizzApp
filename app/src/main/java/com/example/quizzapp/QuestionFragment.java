@@ -55,7 +55,6 @@ public class QuestionFragment extends Fragment {
     private static final String ARG_CURRENT_QUESTION_NUMBER = "arg_current_question_number";
 
 
-
     // Static factory method to create a new instance of the fragment
     public static QuestionFragment newInstance(String question, boolean answer, int colorResId,  int totalQuestions) {
         QuestionFragment fragment = new QuestionFragment();

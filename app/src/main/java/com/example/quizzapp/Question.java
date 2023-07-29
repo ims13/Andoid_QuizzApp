@@ -8,7 +8,6 @@ public class Question {
         this.questionText = questionText;
         this.answer = answer;
     }
-
     // getters
     public String getQuestionText() {
         return questionText;

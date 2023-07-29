@@ -33,7 +33,6 @@ public class QuizResultHelper {
         if (total == 0) {
             return 0;
         }
-
         // Calculate and return the average
         return (float) (((double) correct / total) * 100);
 
