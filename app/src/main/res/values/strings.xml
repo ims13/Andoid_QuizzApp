@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>vi
+    <string name="default_question">Question</string>
+    <string name="results">Results</string>
+
+</resources>
+
+
+<!--
+warning: Hardcoded string "Results", should use `@string` resource
+Fix :  Hardcoding strings in your layout files is not recommended, especially if you want to
+       support multiple languages. Instead, you should define your strings in a strings.xml file
+       and reference them in the layout file.
+ -->

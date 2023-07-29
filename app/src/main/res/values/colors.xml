@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_color">#ECE6E6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="my_light_primary">#3F51B5</color> <!-- Indigo 500 -->
+    <color name="my_dark_primary">#303F9F</color>  <!-- Indigo 700 -->
+
+    <color name="material_red_500">#ECBAB6</color>
+    <color name="material_pink_500">#DC8CA7</color>
+    <color name="material_purple_500">#C88BD3</color>
+    <color name="material_deep_purple_500">#A486D8</color>
+    <color name="material_indigo_500">#8091ED</color>
+    <color name="material_blue_500">#70A4CD</color>
+    <color name="material_light_blue_500">#8DD8FA</color>
+    <color name="material_cyan_500">#82DBE6</color>
+    <color name="material_teal_500">#CDE8F3</color>
+    <color name="material_green_500">#B7E6B9</color>
+
+<!--    <color name="correct_answer">#4CAF50</color> &lt;!&ndash; change to whatever color you want &ndash;&gt;-->
+<!--    <color name="incorrect_answer">#F44336</color> &lt;!&ndash; change to whatever color you want &ndash;&gt;-->
+
+    <color name="progress_default">#FF6200EE</color> <!-- change to whatever color you want -->
+    <color name="progress_finished">#4CAF50</color> <!-- Green -->
+
+
+</resources>

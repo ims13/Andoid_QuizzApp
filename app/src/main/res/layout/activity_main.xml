@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/emoji_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
+
+
+
+    <!--    we added an id to the root LinearLayout that will help change the color dynamically
+        when each question changes. and we added ImageView Make it invisible by default
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="500dp"
+            app:srcCompat="@drawable/thumbs_down" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="202dp"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/thumbs_up" />
+
+        -->
+
